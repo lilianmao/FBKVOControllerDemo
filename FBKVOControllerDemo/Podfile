@@ -1,0 +1,9 @@
+source 'https://git.coding.net/hging/Specs.git'
+platform :ios, '8.0'
+
+inhibit_all_warnings!
+target 'FBKVOControllerDemo' do
+
+pod 'KVOController'
+
+end
