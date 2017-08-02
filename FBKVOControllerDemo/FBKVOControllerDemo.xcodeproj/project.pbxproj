@@ -16,6 +16,7 @@
 		F23D59261ECC64ED00948903 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F23D59241ECC64ED00948903 /* LaunchScreen.storyboard */; };
 		F23D59311ECC64ED00948903 /* FBKVOControllerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D59301ECC64ED00948903 /* FBKVOControllerDemoTests.m */; };
 		F23D593C1ECC64ED00948903 /* FBKVOControllerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F23D593B1ECC64ED00948903 /* FBKVOControllerDemoUITests.m */; };
+		F29AB53C1F306B1C0019A578 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = F29AB53B1F306B1C0019A578 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		F23D59371ECC64ED00948903 /* FBKVOControllerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBKVOControllerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F23D593B1ECC64ED00948903 /* FBKVOControllerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FBKVOControllerDemoUITests.m; sourceTree = "<group>"; };
 		F23D593D1ECC64ED00948903 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F29AB53A1F306B1C0019A578 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		F29AB53B1F306B1C0019A578 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +132,8 @@
 				F23D591A1ECC64ED00948903 /* AppDelegate.m */,
 				F23D591C1ECC64ED00948903 /* ViewController.h */,
 				F23D591D1ECC64ED00948903 /* ViewController.m */,
+				F29AB53A1F306B1C0019A578 /* Person.h */,
+				F29AB53B1F306B1C0019A578 /* Person.m */,
 				F23D591F1ECC64ED00948903 /* Main.storyboard */,
 				F23D59221ECC64ED00948903 /* Assets.xcassets */,
 				F23D59241ECC64ED00948903 /* LaunchScreen.storyboard */,
@@ -353,6 +358,7 @@
 			files = (
 				F23D591E1ECC64ED00948903 /* ViewController.m in Sources */,
 				F23D591B1ECC64ED00948903 /* AppDelegate.m in Sources */,
+				F29AB53C1F306B1C0019A578 /* Person.m in Sources */,
 				F23D59181ECC64ED00948903 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,6 +599,7 @@
 				F23D59421ECC64ED00948903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F23D59431ECC64ED00948903 /* Build configuration list for PBXNativeTarget "FBKVOControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -601,6 +608,7 @@
 				F23D59451ECC64ED00948903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F23D59461ECC64ED00948903 /* Build configuration list for PBXNativeTarget "FBKVOControllerDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -609,6 +617,7 @@
 				F23D59481ECC64ED00948903 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
